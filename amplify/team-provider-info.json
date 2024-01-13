@@ -1,0 +1,45 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-ppool2024-dev-172702-authRole",
+      "UnauthRoleArn": "arn:aws:iam::176207834191:role/amplify-ppool2024-dev-172702-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::176207834191:role/amplify-ppool2024-dev-172702-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-ppool2024-dev-172702-deployment",
+      "UnauthRoleName": "amplify-ppool2024-dev-172702-unauthRole",
+      "StackName": "amplify-ppool2024-dev-172702",
+      "StackId": "arn:aws:cloudformation:us-east-2:176207834191:stack/amplify-ppool2024-dev-172702/17c133a0-b1a2-11ee-a4f4-0a3f89642de9",
+      "AmplifyAppId": "d1r4ogb106gzx0",
+      "APIGatewayAuthURL": "https://s3.amazonaws.com/amplify-ppool2024-dev-172702-deployment/amplify-cfn-templates/api/APIGatewayAuthStack.json"
+    },
+    "categories": {
+      "function": {
+        "ppool2024lambda": {
+          "deploymentBucketName": "amplify-ppool2024-dev-172702-deployment",
+          "s3Key": "amplify-builds/ppool2024lambda-3444553174573571507a-build.zip"
+        }
+      },
+      "auth": {
+        "ppool20246bfa7b9b": {
+          "userPoolId": "us-east-2_0dKXPwp5a",
+          "userPoolName": "playoff_pool_userpool_d613df10-devppool",
+          "webClientId": "56ivil1e6oj8a8d6m8d7d8vcdn",
+          "nativeClientId": "2q4raehnkclhd2ihfr3r3at1ce",
+          "identityPoolId": "us-east-2:98649c0a-a602-44e4-b1b4-a9eb0b344450",
+          "identityPoolName": "playoff_pool_identitypool_d613df10__devppool",
+          "allowUnauthenticatedIdentities": false,
+          "authRoleArn": "arn:aws:iam::176207834191:role/amplify-playoff-pool-devppool-92657-authRole",
+          "authRoleName": "amplify-playoff-pool-devppool-92657-authRole",
+          "unauthRoleArn": "arn:aws:iam::176207834191:role/amplify-playoff-pool-devppool-92657-unauthRole",
+          "unauthRoleName": "amplify-playoff-pool-devppool-92657-unauthRole"
+        }
+      },
+      "storage": {
+        "ppool2024db": {}
+      },
+      "api": {
+        "ppool2024api": {}
+      }
+    }
+  }
+}

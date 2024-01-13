@@ -1,0 +1,10 @@
+{
+  "resourceName": "ppool2024db",
+  "tableName": "ppool2024db",
+  "partitionKey": {
+    "fieldName": "id",
+    "fieldType": "string"
+  },
+  "gsi": [],
+  "triggerFunctions": []
+}
